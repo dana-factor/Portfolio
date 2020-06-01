@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag Quiz</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="init()">
+
+    <div class="game">
+        <h1>can you guess the country by its flag?</h1>
+        <img class="img"/><br>
+        <!-- <img class="img" src="img/1.png" /> -->
+        <button onclick="checkAnswer(0)" class="button">option 1</button>
+        <button onclick="checkAnswer(1)" class="button">option 2</button>
+        <button onclick="checkAnswer(2)" class="button">option 3</button>
+        <button onclick="changeBoard('can you guess the country by its flag?'), init()" class="restart button hide" >REPLAY</button>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

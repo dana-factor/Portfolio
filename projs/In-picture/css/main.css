@@ -1,0 +1,42 @@
+body{
+    background-image: url("https://thumbs.dreamstime.com/z/world-flags-background-ready-your-text-design-65971412.jpg");
+    text-align: center;
+    font-family: fantasy;   
+}
+
+.button{
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 100px;
+    border-radius: 10%;
+    margin-top: 50px;
+    border: slateblue;
+    border: 3px solid;
+}
+
+.game{
+    background-color: rgb(201, 215, 246);
+    height: 500px;
+    width: 400px;
+    margin-left: 35%;
+    margin-top: 50px;
+    padding: 10px;
+    border: 3px solid;
+    letter-spacing: 2px;
+}
+
+.img{
+    height: 40%;
+
+}
+
+.restart{
+    height: 90px;
+    width: 300px;
+    background-color: rgb(145, 180, 255);
+    font-size: larger;
+}
+
+.hide{
+    display: none;
+}
