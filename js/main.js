@@ -4,7 +4,7 @@ var gProjs = [{
     name: "Mine-Sweeper",
     title: "Try not to blow up",
     desc: "The objective of the game is to clear a board containing hidden mines without detonating any of them, with help from clues about the number of neighboring mines in each field.",
-    url: "projs/minesweeper",
+    url: "projs/mine-sweeper",
     publishedAt: 1448693940000,
     labels: ["Matrixes", "keyboard events"]
 }, {
@@ -12,7 +12,7 @@ var gProjs = [{
     name: "Guess The Flag",
     title: "Are u the king of the world?",
     desc: "The objective of the game is to recognize the countries only by their flags",
-    url: "projs/touchnums",
+    url: "projs/in-picture",
     publishedAt: 1448693940000,
     labels: ["Matrixes", "keyboard events"]
 
@@ -21,7 +21,7 @@ var gProjs = [{
     name: "Books Shop",
     title: "Manage your stock",
     desc: "An app to help you manage your book-shoop, add/ remove books, update prices, review ratings and get all the info you need",
-    url: "projs/booksshop",
+    url: "projs/books-shop",
     publishedAt: 1448693940000,
     labels: ["Matrixes", "keyboard events"]
 }]
@@ -96,7 +96,3 @@ function onSubmitClicked(){
   var message = $("textarea.message").val()
   window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=factor.dana@gmail.com&su=${subject}&body=${message}`, '_blank');
 }
-
-// #27714a
-// #1e5237
-// #2f9a93
